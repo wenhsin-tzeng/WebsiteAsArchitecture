@@ -1,0 +1,33 @@
+body {
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 160.1%;
+  margin: 200px;
+  color: #EDEDED;
+}
+
+.line:hover {
+  color: black;
+}
+
+.bold {
+  color: black;
+}
+
+.bold:hover {
+  color: orange;
+}
+
+.show_img {
+  position: relative;
+  background-image: url('esb.jpeg');
+  width: 800px;
+  height: 600px;
+  display: none;
+}
+
+.bold:hover + .show_img {
+  display: block;
+}

@@ -1,0 +1,55 @@
+body {
+  background-image: url('sol.jpg');
+}
+
+h2 {
+position: absolute;
+width: 784px;
+height: 98px;
+left: 328px;
+top: 341px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+
+animation-name: enlarge;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes enlarge {
+  from {
+    color: #EAEAEA;
+    font-size: 36px;
+
+  }
+  to {
+    font-size: 38px;
+    width: 804px;
+    color: #474747;
+  }
+}
+
+.newyork {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.newyork:hover  {
+  color: black;
+  background-color: yellow;
+}
+
+.child {
+  display: none;
+  width: 400px;
+
+
+}
